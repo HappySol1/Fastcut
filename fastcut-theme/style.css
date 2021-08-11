@@ -1,0 +1,923 @@
+@font-face { 
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Regular.ttf),
+    url(fonts/Montserrat-Black.ttf),
+    url(fonts/Montserrat-Bold.ttf),
+    url(fonts/Montserrat-ExtraBold.ttf),
+    url(fonts/Montserrat-Light.ttf),
+    url(fonts/Montserrat-Medium.ttf),
+    url(fonts/Montserrat-Italic.ttf),
+    url(fonts/Montserrat-SemiBold.ttf),
+    url(fonts/Montserrat-Thin.ttf),
+    url(fonts/Montserrat-BoldItalic.ttf);
+}
+html {
+  width: 100%;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  font-family: Montserrat;
+}
+body .displaynone {
+  display: none !important;
+}
+body .desapeared {
+  opacity: 0 !important;
+}
+body h2 {
+  font-weight: 900;
+  font-size: 47px;
+  line-height: 45px;
+  color: #49a0de;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+body h3 {
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 37px;
+  margin-top: 0;
+  margin-bottom: 12%;
+  letter-spacing: 1px;
+}
+body .notactive {
+  pointer-events: none;
+  cursor: default;
+  background: gray !important;
+  box-shadow: 0px 0px 30px 12px rgba(128, 128, 128, 0.3) !important;
+}
+body .costbtn {
+  transition: 0.5s all;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 31px 140px;
+  background: #49a0de;
+  border-radius: 100px;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0px 0px 30px 12px rgba(73, 160, 222, 0.39);
+}
+.backgrounditems .left_svg {
+  display: none;
+  position: absolute;
+  right: 0px;
+  top: 70px;
+  z-index: -2;
+}
+.backgrounditems .bot_svg {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+  z-index: -2;
+}
+.header .navmenu {
+  display: flex;
+  padding: 0 10%;
+}
+.header .navmenu .mybyrger {
+  display: none;
+}
+.header .navmenu img {
+  width: 218px;
+  height: 103px;
+  margin-top: 40px;
+  filter: grayscale(100%);
+}
+.header .navmenu img:hover {
+  filter: none;
+  transition: 0.5s;
+}
+.header .navmenu .nav {
+  width: 810px;
+  margin: 50px auto 0;
+}
+.header .navmenu .nav ul {
+  list-style: none;
+}
+.header .navmenu .nav ul li {
+  float: left;
+  padding: 0 30px;
+}
+.header .navmenu .nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: #464646;
+  padding: 11px 23px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 17px;
+  font-size: 19px;
+  background: #fff !important;
+  transition: 0.3s ease-out;
+}
+.header .navmenu .nav ul li a:hover {
+  color: #49a0de;
+}
+.header .navmenu .nav ul li a.active {
+  color: #49a0de;
+  border: 2px solid #49a0de;
+  border-radius: 50px;
+  padding: 9px 21px;
+  box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.3) !important;
+}
+.header .navmenu .contact {
+  width: 15%;
+  margin-top: 60px;
+}
+.header .navmenu .contact a {
+  margin: 0 5px;
+}
+.header .navmenu .contact a i {
+  width: 18px;
+  font-size: 18px;  
+  color: #49a0de;
+  padding: 8px;
+  border: 1px solid #49a0de;
+  border-radius: 50%;
+}
+.firstscreen {
+  padding-left: 10%;
+  margin-top: 12%;
+  transition: 0.5s;
+  transition-delay: 10s ease-out;
+}
+.firstscreen .cam {
+  width: 100% !important;
+}
+.firstscreen .cam svg {
+  width: 1121px;
+  height: 704px;
+  position: absolute;
+  bottom: -270px;
+  right: -320px;
+  z-index: -1;
+}
+.secondscreen {
+  width: 100%;
+}
+.secondscreen-desapear {
+  opacity: 1;
+  transition: 1s  !important;
+}
+.secondscreen h2 {
+  padding-left: 10%;
+  margin-top: 2%;
+}
+.secondscreen-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto 0;
+}
+.secondscreen-container .portfoliomain-item:hover {
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.5);
+}
+.secondscreen .costbtn {
+  display: inline-block;
+  padding: 0 !important;
+  margin-top: 40px;
+  margin-left: 10%;
+  width: 470px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  z-index: 1;
+}
+.secondscreen .dontdesapear {
+  transition: 0.5s !important;
+  width: 100%;
+  position: absolute;
+  left: -4%;
+  bottom: 120px;
+}
+.secondscreen-progressbars {
+  position: relative;
+  margin-left: 5%;
+  display: inline-block;
+}
+.secondscreen-progressbars .secondscreen-progressbar {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  background: #C4C4C4;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+.secondscreen-progressbars .secondscreen-progressbar-pre {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: -20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #49a0de;
+}
+.secondscreen-progressbars .secondscreen-progressbar-pre:before {
+  display: block;
+  content: "";
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+}
+.secondscreen-progressbars .secondscreen-progressbar-pre:after {
+  display: block;
+  content: "";
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: #49a0de;
+  transform: translate(150%, -50%);
+}
+.secondscreen-progressbars .secondscreen-progressbar-first {
+  width: 180px;
+}
+.secondscreen-progressbars .secondscreen-progressbar-sec {
+  width: 350px;
+}
+.secondscreen-progressbars .secondscreen-progressbar-thirht {
+  position: relative;
+  width: 410px;
+}
+.secondscreen-progressbars .secondscreen-progressbar-thirht-end {
+  content: "";
+  position: absolute;
+  right: -40px;
+  top: -20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #C4C4C4;
+}
+.secondscreen-progressbars .secondscreen-progressbar-feel {
+  height: 100%;
+  transition: 2s;
+  width: 0%;
+  display: block;
+  content: "";
+  border-radius: 30px;
+  background: #49a0de;
+}
+.secondscreen-progressbars .feeld .secondscreen-progressbar-feel {
+  width: 100% !important;
+}
+.secondscreen .thirhtscreen-congratulate,
+.secondscreen .thirhtscreen-presentation,
+.secondscreen .thirhtscreen-installation,
+.secondscreen .thirhtscreen-subs {
+  transition: 1s all !important;
+  opacity: 1;
+  width: 100%;
+}
+.secondscreen .thirhtscreen-container {
+  padding-left: 5%;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto 0;
+}
+.secondscreen .thirhtscreen-container .thirhtscreen-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.secondscreen .thirhtscreen-container .thirhtscreen-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #49a0de;
+  cursor: pointer;
+}
+.secondscreen .thirhtscreen-container .thirhtscreen-slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #49a0de;
+  cursor: pointer;
+}
+.secondscreen .thirhtscreen-container #demo {
+  text-align: center;
+  margin-top: 0;
+}
+.secondscreen .thirhtscreen-container .cdemo:before {
+  content: "1";
+  position: absolute;
+  left: 0;
+  color: #464646;
+  font-size: 15px;
+}
+.secondscreen .thirhtscreen-container .cdemo:after {
+  content: "15";
+  position: absolute;
+  left: 95%;
+  color: #464646;
+  font-size: 15px;
+}
+.secondscreen .thirhtscreen-container .pdemo:before {
+  content: "1";
+  position: absolute;
+  left: 0;
+  color: #464646;
+  font-size: 15px;
+}
+.secondscreen .thirhtscreen-container .pdemo:after {
+  content: "10";
+  position: absolute;
+  left: 95%;
+  color: #464646;
+  font-size: 15px;
+}
+.secondscreen .thirhtscreen-container .thirhtscreen-lefttable {
+  width: 20%;
+  position: relative;
+  height: 100%;
+}
+.secondscreen .thirhtscreen-container .thirhtscreen-righttable {
+  display: block;
+  width: 65%;
+  height: 400px;
+  position: relative;
+}
+.secondscreen .thirhtscreen-container .tabs {
+  width: 100%;
+  padding: 0px;
+  margin: 0 auto;
+}
+.secondscreen .thirhtscreen-container .tabs input {
+  display: none;
+}
+.secondscreen .thirhtscreen-container .tabs .tabs-div {
+  position: relative;
+  display: none;
+  padding: 0;
+  height: 300px;
+  border-bottom: 5px solid #49a0de;
+}
+.secondscreen .thirhtscreen-container .tabs .tabs-div textarea {
+  height: 70%;
+}
+.secondscreen .thirhtscreen-container .tabs label {
+  padding: 7px 0;
+  margin: 0 -5px -1px 0;
+  text-align: center;
+  color: #666666;
+  border: 1px solid #C0C0C0;
+  background: #E0E0E0;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 1000;
+  height: 100%;
+  width: 6.5%;
+  display: none;
+  opacity: 1;
+}
+.secondscreen .thirhtscreen-container .ib {
+  display: inline-block !important;
+}
+.secondscreen .thirhtscreen-container .tabs input:checked + label {
+  color: #fff;
+  border: 1px solid #49a0de;
+  background: #49a0de;
+  font-size: 17px;
+  font-weight: 1000;
+  height: 100%;
+}
+.secondscreen .thirhtscreen-container .ptabs input:checked + label {
+  color: #fff;
+  border: 1px solid #49a0de;
+  background: #49a0de;
+  font-size: 17px;
+  font-weight: 1000;
+  height: 100%;
+}
+.secondscreen .thirhtscreen-container #tab_1:checked ~ #txt_1,
+.secondscreen .thirhtscreen-container #tab_2:checked ~ #txt_2,
+.secondscreen .thirhtscreen-container #tab_3:checked ~ #txt_3,
+.secondscreen .thirhtscreen-container #tab_4:checked ~ #txt_4,
+.secondscreen .thirhtscreen-container #tab_5:checked ~ #txt_5,
+.secondscreen .thirhtscreen-container #tab_6:checked ~ #txt_6,
+.secondscreen .thirhtscreen-container #tab_7:checked ~ #txt_7,
+.secondscreen .thirhtscreen-container #tab_8:checked ~ #txt_8,
+.secondscreen .thirhtscreen-container #tab_9:checked ~ #txt_9,
+.secondscreen .thirhtscreen-container #tab_10:checked ~ #txt_10,
+.secondscreen .thirhtscreen-container #tab_11:checked ~ #txt_11,
+.secondscreen .thirhtscreen-container #tab_12:checked ~ #txt_12,
+.secondscreen .thirhtscreen-container #tab_13:checked ~ #txt_13,
+.secondscreen .thirhtscreen-container #tab_14:checked ~ #txt_14,
+.secondscreen .thirhtscreen-container #tab_15:checked ~ #txt_15 {
+  display: block;
+}
+.secondscreen .thirhtscreen-container #ptab_1:checked ~ #ptxt_1,
+.secondscreen .thirhtscreen-container #ptab_2:checked ~ #ptxt_2,
+.secondscreen .thirhtscreen-container #ptab_3:checked ~ #ptxt_3,
+.secondscreen .thirhtscreen-container #ptab_4:checked ~ #ptxt_4,
+.secondscreen .thirhtscreen-container #ptab_5:checked ~ #ptxt_5,
+.secondscreen .thirhtscreen-container #ptab_6:checked ~ #ptxt_6,
+.secondscreen .thirhtscreen-container #ptab_7:checked ~ #ptxt_7,
+.secondscreen .thirhtscreen-container #ptab_8:checked ~ #ptxt_8,
+.secondscreen .thirhtscreen-container #ptab_9:checked ~ #ptxt_9,
+.secondscreen .thirhtscreen-container #ptab_10:checked ~ #ptxt_10 {
+  display: block;
+}
+.secondscreen .thirhtscreen-container .tabs-div-left {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+.secondscreen .thirhtscreen-container .tabs-div-left h5 {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.secondscreen .thirhtscreen-container .tabs-div-textareap {
+  width: 96% !important;
+}
+.secondscreen .thirhtscreen-container .tabs-div-textarea {
+  resize: none;
+  width: 100%;
+  height: 191px !important;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px 0px rgba(31, 53, 255, 0.3);
+  display: block;
+  border: 2px solid #49a0de;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  outline: none;
+  padding: 10px;
+}
+.secondscreen .thirhtscreen-container .tabs-div-textarea::placeholder {
+  color: rgba(31, 53, 255, 0.3);
+  text-transform: uppercase;
+}
+.secondscreen .thirhtscreen-container .tabs-div-right {
+  display: inline-block;
+  width: 50%;
+  margin-left: 5%;
+  vertical-align: top;
+}
+.secondscreen .thirhtscreen-container .tabs-div-right h5 {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.secondscreen .thirhtscreen-container .tabs-div-right .tabs-div-right-textarea {
+  resize: none;
+  width: 100%;
+  height: 58px !important;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px 0px rgba(31, 53, 255, 0.3);
+  display: block;
+  border: 2px solid #49a0de;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  outline: none;
+  padding: 10px;
+}
+.secondscreen .thirhtscreen-container .tabs-div-right .tabs-div-right-textarea::placeholder {
+  color: rgba(31, 53, 255, 0.3);
+  text-transform: uppercase;
+}
+.secondscreen .thirhtscreen-container .tabs-div-right-text-dn,
+.secondscreen .thirhtscreen-container .tabs-div-right-ozv-dn {
+  opacity: 0!important;
+}
+.secondscreen .thirhtscreen-container .tabs-div-right-text,
+.secondscreen .thirhtscreen-container .tabs-div-right-ozv {
+  transition: 1s;
+  opacity: 1;
+}
+.secondscreen .thirhtscreen-container .thirhtscreen-textarea {
+  resize: none;
+  width: 40%;
+  height: 115px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px 0px rgba(31, 53, 255, 0.3);
+  display: inline-block;
+  border: 2px solid #49a0de;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  outline: none;
+  padding: 10px;
+}
+.secondscreen .thirhtscreen-container .thirhtscreen-textarea::placeholder {
+  color: rgba(31, 53, 255, 0.3);
+  text-transform: uppercase;
+}
+.secondscreen .thirhtscreen-container h5 {
+  display: block;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 20px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.secondscreen .thirhtscreen-container .source {
+  display: inline-block;
+  width: 50%;
+  margin-left: 5%;
+  vertical-align: top;
+}
+.secondscreen .thirhtscreen-container .source h5 {
+  margin-top: 30px;
+  padding-top: 0;
+  font-size: 14px;
+}
+.secondscreen .thirhtscreen-container .subs-textarea {
+  display: block;
+  width: 96%;
+  height: 300px;
+  margin-top: 0;
+}
+.secondscreen .thirhtscreen-container .uploadvideo {
+  text-decoration: none;
+  margin: 0;
+  font-weight: 900;
+  font-size: 25px;
+  color: #49a0de;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 70px;
+  width: 320px;
+  height: 50px;
+  background: #fff;
+  display: inline-block;
+  margin-top: 25px;
+  box-shadow: 0px 2px 4px 2px rgba(31, 53, 255, 0.3);
+  border: 3px solid #49a0de;
+}
+.secondscreen .thirhtscreen-container .radioinput {
+  display: inline-block;
+  transform: scale(2);
+}
+.secondscreen .thirhtscreen-container .congratulate-voice-check,
+.secondscreen .thirhtscreen-container .congratulate-text-check {
+  display: flex;
+  justify-content: space-around;
+}
+.secondscreen .thirhtscreen-container .congratulate-voice-check-yes,
+.secondscreen .thirhtscreen-container .congratulate-voice-check-no,
+.secondscreen .thirhtscreen-container .congratulate-text-check-no,
+.secondscreen .thirhtscreen-container .congratulate-text-check-yes {
+  width: 45%;
+  text-align: center;
+}
+.secondscreen .thirhtscreen-container label {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #49a0de;
+  text-transform: uppercase;
+}
+.secondscreen .thirhtscreen-container label:first-child {
+  margin-right: 100px;
+}
+.secondscreen .thirhtscreen-input {
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 2px 4px 0px rgba(31, 53, 255, 0.3);
+  display: block;
+  border: 2px solid #49a0de;
+  font-weight: bold;
+  font-size: 18px;
+  outline: none;
+}
+.secondscreen .thirhtscreen-input::placeholder {
+  color: rgba(31, 53, 255, 0.3);
+}
+.secondscreen .thirhtscreen-installation .radioinput-cont {
+  display: block;
+  margin-top: 20px;
+  margin-left: 27px;
+  position: relative;
+}
+.secondscreen .thirhtscreen-installation .radioinput-cont input {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.secondscreen .thirhtscreen-installation .radioinput-cont label {
+  padding-left: 25px;
+}
+.forthscreen {
+  transition: 1s;
+  width: 100%;
+}
+.forthscreen-desapear {
+  opacity: 1;
+  transition: 1s  !important;
+}
+.forthscreen-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto 0;
+}
+.forthscreen-input {
+  width: 30% !important;
+  height: 45px  !important;
+  font-size: 23px  !important;
+}
+.forthscreen h3 {
+  text-transform: uppercase;
+  margin-left: 10%;
+  margin-bottom: 7%;
+}
+.fifthscreen {
+  display: block;
+  transition: 1s;
+  width: 90%;
+  opacity: 1;
+  padding-left: 10%;
+  vertical-align: top;
+}
+.fifthscreen h2 {
+  margin-top: 200px;
+}
+.socials {
+  display: block;
+  position: absolute;
+  bottom: 50px;
+  left: 10%;
+  transition: 1s;
+}
+.socials-left {
+  left: 80%;
+}
+.socials i {
+  font-size: 30px;
+  text-align: center;
+  line-height: 36px;
+  padding: 5px;
+  background: #464646;
+  color: #fff;
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+  margin: 0 15px;
+  transition: 0.2s;
+}
+.socials i:hover {
+  background: #49a0de;
+  box-shadow: 0px 0px 4px 2px rgba(31, 53, 255, 0.3);
+}
+.popup {
+  opacity: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.popup-window {
+  opacity: 1;
+  margin: -100% auto 0;
+  overflow: hidden;
+  position: relative;
+  background: #49a0de;
+  width: 630px;
+  height: 400px;
+  padding: 50px;
+  box-shadow: border-box;
+}
+.popup-window h2 {
+  color: #fff;
+  font-size: 37px;
+  text-align: right;
+  z-index: 11 !important;
+}
+.popup-window-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  background: #fff;
+  border-radius: 50%;
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.popup-window-close:after {
+  content: "";
+  width: 22px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  display: block;
+  top: 45%;
+  left: 4px;
+  transform: rotate(135deg);
+}
+.popup-window-close:before {
+  content: "";
+  width: 22px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  display: block;
+  top: 45%;
+  left: 4px;
+  transform: rotate(45deg);
+}
+.popup-window-inputs {
+  display: block;
+}
+.popup-window-input {
+  height: 45px;
+  width: 320px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+  display: block;
+  float: right;
+  margin-left: 50%;
+  margin-top: 18px;
+  font-weight: bold;
+  font-size: 18px;
+  outline: none;
+}
+.popup-window-input::placeholder {
+  color: rgba(31, 53, 255, 0.3);
+}
+.popup-window-send {
+  text-decoration: none;
+  margin: 0;
+  font-weight: 900;
+  font-size: 31px;
+  color: #49a0de;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 70px;
+  width: 320px;
+  height: 60px;
+  background: #fff;
+  display: inline-block;
+  float: right;
+  margin-top: 25px;
+}
+.popup-window-cam {
+  position: absolute;
+  left: -220px;
+  top: 110px;
+  z-index: 10 !important;
+}
+.popup.active {
+    
+  z-index: 30;
+  opacity: 1;
+}
+.popup-laizyload{
+    transition: 0.5s ease-out;
+}
+.popup.active .popup-window {
+  margin: 13% auto;
+}
+.portfoliomain {
+  width: 80%;
+  display: block;
+  margin: 90px auto 0;
+}
+.portfoliomain-item {
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 4px 9px 1px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 4px 9px 1px rgba(0, 0, 0, 0.61);
+  flex: 1 1 30%;
+  margin: 1%;
+}
+.portfoliomain-item figure {
+  margin: 0;
+}
+.portfoliomain-item iframe {
+  width: 101% !important;
+  height: 200px !important;
+}
+.portfoliomain-item .video {
+  width: 100%;
+  height: 222px;
+  background: #000;
+}
+.portfoliomain-item-text {
+  padding: 0 10% 3% 10%;
+}
+.portfoliomain-item-text h5 {
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0 10px;
+}
+.portfoliomain-item-text p {
+  font-size: 18px;
+  line-height: 20px;
+  color: #464646;
+  margin: 0 !important;
+}
+.portfoliomain-item.active {
+  background: #49a0de !important;
+  color: #fff;
+  box-shadow: 0px 0px 30px 12px rgba(73, 160, 222, 0.5) !important;
+}
+.portfoliomain-item.active p {
+  color: #fff !important;
+}
+.portfoliomain-item-main {
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 4px 9px 1px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 4px 9px 1px rgba(0, 0, 0, 0.61);
+  display: inline-block;
+  width: 29%;
+  height: 300px;
+  margin: 1%;
+  padding: 5px 15px 20px 15px;
+}
+.portfoliomain-item-main figure {
+  margin: 0;
+}
+.portfoliomain-item-main iframe {
+  width: 100% !important;
+  height: 250px !important;
+}
+.portfoliomain-item-main-text h5 {
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0 10px;
+}
+.screen-reader-text {
+  display: none;
+}
+.nav-links {
+  text-align: center;
+  margin-top: 100px;
+}
+.page-numbers {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #464646;
+  line-height: 40px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+}
+.page-numbers.next,
+.page-numbers.prev {
+  display: inline;
+  padding: 6px 15px;
+}
+.page-numbers.current {
+  background: #49a0de;
+}
+.portf {
+  transition: 0s !important;
+}

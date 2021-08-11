@@ -1,0 +1,646 @@
+@media (max-width: 1899px) {
+  .socials {
+    bottom: 20px !important;
+  }
+  .socials-left {
+    left: 75%;
+  }
+  .dontdesapear {
+    bottom: 60px !important;
+  }
+  .secondscreen-progressbar-first {
+    width: 150px !important;
+  }
+  .secondscreen-progressbar-sec {
+    width: 300px !important;
+  }
+  .secondscreen-progressbar-thirht {
+    width: 340px !important;
+  }
+  .tabs-div-textarea {
+    height: 130px;
+  }
+  .secondscreen .thirhtscreen-container .thirhtscreen-righttable h5 {
+    margin: 10px 0 15px !important;
+  }
+  .portfoliomain-item-main iframe {
+    height: 300px !important;
+}
+.portfoliomain-item-main{
+    /*display: block;*/
+    width: 27% !important;
+    /*margin: 50px auto !important;*/
+    height: 350px;
+    /*padding: 50px 0;*/
+  }
+}
+@media (max-width: 1560px) {
+    .secondscreen-progressbar-first {
+    width: 120px !important;
+  }
+    .secondscreen-progressbar-sec {
+      width: 210px !important;
+    }
+    .secondscreen-progressbar-thirht {
+      width: 180px !important;
+    }
+    .portfoliomain-item-main{
+    /*display: block;*/
+    width: 27% !important;
+    /*margin: 50px auto !important;*/
+    height: 350px;
+    /*padding: 50px 0;*/
+  }
+  }
+@media (max-width: 1367px) {
+  .socials-left {
+    left: 70%;
+  }
+  .navmenu img {
+    height: 70px !important;
+  }
+  .navmenu .nav {
+    margin: 37px auto 0 !important;
+  }
+  .navmenu .nav ul li a {
+    font-size: 15px !important;
+  }
+  .navmenu .contact {
+    margin-top: 55px !important;
+  }
+  .navmenu .contact a i {
+    font-size: 15px !important;
+    padding: 6px	!important;
+  }
+  .cam svg {
+    width: 721px !important;
+    height: 504px !important;
+    position: absolute;
+    bottom: -170px !important;
+    right: -120px !important;
+  }
+  .costbtn {
+    padding: 24px 60px !important;
+  }
+  .secondscreen h2 {
+    margin-top: 0 !important;
+    font-size: 29px !important;
+    letter-spacing: 2px !important;
+  }
+  .video {
+    height: 180px !important;
+  }
+  .portfoliomain-item-text h5 {
+    font-size: 14px !important;
+    margin-bottom: 0;
+  }
+  .portfoliomain-item-text p {
+    font-size: 15px;
+  }
+  .portfoliomain-item iframe{
+    height: 150px !important;
+  }
+  .secondscreen-progressbar-first {
+    width: 120px !important;
+  }
+  .secondscreen-progressbar-sec {
+    width: 200px !important;
+  }
+  .secondscreen-progressbar-thirht {
+    width: 210px !important;
+  }
+  .secondscreen .thirhtscreen-container .subs-textarea {
+    height: 200px !important;
+  }
+  .secondscreen .thirhtscreen-container .tabs-div-textarea {
+    height: 100px !important;
+  }
+  .secondscreen .thirhtscreen-container .tabs .tabs-div {
+    height: 220px !important;
+  }
+  .secondscreen .thirhtscreen-container .tabs-div-right .tabs-div-right-textarea {
+    height: 35px !important;
+  }
+  .secondscreen .thirhtscreen-container h5 {
+    margin: 5px 0 15px !important;
+  }
+  .tabs-div-right-text h5 {
+    display: none !important;
+  }
+  .tabs-div-right-text h5:first-child {
+    margin-top: 30px;
+  }
+  .secondscreen .thirhtscreen-container .thirhtscreen-righttable h5 {
+    font-size: 12px;
+    margin-top: 15px !important;
+  }
+  .fifthscreen h2 {
+    margin-top: 150px !important;
+  }
+  .fifthscreen h3 {
+    font-size: 28px;
+  }
+  .socials {
+    bottom: 40px !important;
+  }
+  .portfoliomain-item-main{
+    /*display: block;*/
+    width: 27% !important;
+    /*margin: 50px auto !important;*/
+    height: 330px;
+    /*padding: 50px 0;*/
+  }
+}
+@media (max-width: 1281px) {
+   .portfoliomain-item-main{
+    /*display: block;*/
+    width: 27% !important;
+    /*margin: 50px auto !important;*/
+    height: 330px;
+    /*padding: 50px 0;*/
+  }
+  .header .navmenu .nav ul li {
+    /*float: left;*/
+    padding: 0 20px;
+  }
+  .demo {
+    margin-bottom: 0 !important;
+  }
+  .secondscreen-progressbars {
+    display: none !important;
+  }
+  .secondscreen .dontdesapear {
+    bottom: 40px !important;
+  }
+  .secondscreen .thirhtscreen-container .thirhtscreen-textarea {
+    height: 87px  !important;
+  }
+}
+@media (max-width: 1199px) {
+  body{
+    overflow-y: scroll;
+    /*padding-bottom: 100px !important;*/
+    /*height: 11200px !important;*/
+    /*background: red !important;*/
+  }
+  .thirhtscreen-container,.secondscreen-container{
+      padding-bottom:450px !important;
+  }
+  .secondscreen .thirhtscreen-input {
+    /*margin-bottom: 199px !important;*/
+  }
+  .secondscreen .dontdesapear {
+    bottom: 30px !important;
+    position: fixed;
+  }
+  .socials{
+    bottom: 50px !important;
+  }
+   .socials-left {
+    position: fixed;
+  }
+  
+  .cam svg{
+    bottom: -270px !important;
+  }
+  .portfoliomain-item-main{
+    display: block;
+    width: 85% !important;
+    margin: 50px auto !important;
+    height: 430px !important;
+    /*padding: 50px 0;*/
+  }
+  .portfoliomain-item-main iframe{
+    height: 350px !important;
+  } 
+  .nav-links{
+    margin-top: 40px;
+    padding-bottom: 50px;
+  }
+  .secondscreen .thirhtscreen-container .thirhtscreen-textarea {
+    height: 107px !important;
+  }
+  .header .navmenu .nav ul li {
+    /*float: left;*/
+    padding: 0 0;
+  }
+  .header .navmenu .contact a {
+      margin: 0 3px;
+  }
+}
+@media (max-width: 1025px) {
+  .secondscreen .thirhtscreen-container .thirhtscreen-textarea {
+    height: 127px !important;
+  }
+  .source{
+    margin-left: 2% !important;
+  }
+  .header .navmenu .nav ul li a {
+    font-size: 13px !important;
+    padding: 9px 13px !important;
+
+  }
+  img{
+    height: 50px !important;
+    margin-top: 30px !important;
+  }
+  .header .navmenu .contact {
+    margin-top: 20px !important;
+}
+  .contact a{
+    display: block !important;
+    margin-top: 10px !important;
+    }
+    h2{
+      padding-right: 10%;
+      font-size: 37px !important;
+    }
+    h3{
+      font-size: 34px !important;
+      padding-right: 10%;
+    }
+    .secondscreen-container{
+      display: block;
+      margin-left: 13%;
+    }
+    .portfoliomain-item{
+      display: inline-block !important;
+      width: 40% !important;
+      height: 320px;
+
+    }
+    .cam svg{
+    bottom: -170px !important;
+  }
+    .secondscreen .dontdesapear {
+    bottom: 50px !important;
+    position: fixed;
+  }
+  .socials {
+    bottom: 80px !important;
+  }
+  .forthscreen-container{
+    input{
+      display: block !important;
+      width: 60% !important;
+      margin: 0 auto !important;
+    }
+    /*.secondscreen a.costbtn {*/
+    /*    color:red !important;*/
+    /*  padding: 25px 10px !important;*/
+    /*  font-size: 18px !important;*/
+    /*}*/
+  /*  .costbtn {*/
+  /*       color:red !important;*/
+  /*  padding: 20px 40px !important;*/
+  /*}*/
+  }
+  @media (max-width:768px) {
+    .cam svg{
+      left:350px;
+    }
+    .dontdesapear a{
+      width: 340px !important;
+     height: 60px !important;
+     font-size: 21px !important;
+     line-height: 60px !important;
+    }
+    .socials-left {
+    left:60% !important;
+  }
+    /*label.voiceno,label.voiceyes,label.textno,label.textyes,label.infografyes,label.infografno{*/
+  .secondscreen .thirhtscreen-container .thirhtscreen-lefttable label {
+    display: block !important;
+    margin-top: 10px !important;
+    margin-left: 0 !important;
+  }
+    .forthscreen h3 {
+    font-size: 25px !important; 
+    margin-bottom: 100px !important;
+  }
+  .forthscreen{
+      padding-bottom:100px;
+  }
+  .forthscreen-container{
+    display: block !important;
+  }
+  .forthscreen-container input{
+    display: block !important;
+    width: 70% !important;
+    margin: 50px auto !important;
+  }
+  .contact{
+    display: none;
+  }
+  .popup .popup-window{
+    margin: 13% 0 0 17% !important;
+    width: 330px;
+    height: 500px;
+  }
+  .popup .popup-window h2{
+    text-align: left;
+  }
+  .popup-window-cam{
+    display: none;
+  }
+  .navmenu{
+    display: block !important; 
+    padding-left: 0 !important;
+  }
+
+  .nav{
+    position: absolute;
+    top:-100%;
+    transition: 1s;
+    z-index: 99;
+  }
+  .navshow{
+    top:0 !important;
+  }
+  .nav ul{
+    width: 65% !important;
+  }
+  .nav ul li{
+    display: block !important;
+    float:none !important;
+    border: 2px solid #49A0DE;
+  }
+  .nactive{
+    border-radius:0px !important;
+    padding: 9px 21px;
+    box-shadow:0px 0px 10px 2px rgba(128,128,128,0.30) !important;
+  }
+  .header .navmenu .nav ul li a {
+    display: block !important;
+    width: 100% !important;
+text-align: center;
+padding: 50px 0 !important;
+    background: #fff !important;
+   z-index: 11 !important;
+   font-size: 24px !important;
+  }
+.mybyrgerclick{
+  position: absolute;
+  top:8%;
+  right:10%;
+  /*background:red !important;*/
+  transition: 0.5s;
+}
+  .mybyrger{
+    display: block !important;
+    /*transition: 0.5s;*/
+    content: "";
+    height: 5px;
+    width: 40px;
+    background:  #49A0DE;
+    
+  }
+  .mybyrgerclick:after{
+    transition: 0.5s;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left:0;
+    top:10px;
+    background:  #49A0DE;
+  }
+  .mybyrgerclick:before{
+    transition: 0.5s;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left:0;
+    top:-10px;
+    background:  #49A0DE;
+  }
+  .mybyrgerclose .mybyrger{
+    opacity: 0;
+  }
+  .mybyrgerclose.mybyrgerclick:after{
+    transform: rotate(135deg) !important;
+    top:50%;
+  }
+  .mybyrgerclose.mybyrgerclick:before{
+    transform: rotate(45deg) !important;
+    top:50%;
+  }
+  .active{
+    border-radius:0 !important;
+  }
+}
+  @media (max-width:500px) {
+    .cam{
+      display: none;
+    }
+    .firstscreen h2{
+      font-size: 24px !important;
+      padding-right: 20%;
+      font-weight: 1000;
+      letter-spacing: normal;
+    }
+    .firstscreen h3{
+      font-size: 22px !important;
+      letter-spacing: normal;
+      margin-bottom: 200px;
+    }
+    .firstscreen a.costbtn {
+      padding: 20px 30px !important;
+      font-size: 18px;
+    }
+    .header .navmenu img {
+      height: 55px !important;
+    }
+    .mybyrgerclick{
+  position: absolute;
+  top:9%;
+  right:10%;
+  /*background:red !important;*/
+  transition: 0.5s;
+}
+.popup-window-input{
+  width: 90% !important;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.socials {
+    display: none !important;
+  }
+  .secondscreen .thirhtscreen-input {
+    margin-bottom: 20px;
+  }
+  .secondscreen h2{
+      font-size: 22px !important;
+      /*padding-right: 10%;*/
+      font-weight: 1000 !important;
+      letter-spacing: normal !important;
+    }
+  .secondscreen-container{
+    margin-left: 5% !important;
+  }
+  .portfoliomain-item{
+    width: 98% !important;
+  }
+  h2 {
+    font-size: 21px !important;
+  }
+  .secondscreen{
+    padding-bottom: 150px !important;
+  }
+  .thirhtscreen-container{
+    display: block !important;
+  }
+  .thirhtscreen-lefttable{
+    display: block !important;
+    width: 90% !important;
+    /*margin: 0 !important;*/
+  }
+  .thirhtscreen-righttable{
+    display: block !important;
+    width: 90% !important;
+    /*margin: 0 !important;*/
+    /*margin: 0;*/
+  }
+  .tabs-div-textarea{
+    width: 90% !important;
+  }
+  .secondscreen .thirhtscreen-container .tabs{
+    margin-top: 25px;
+  }
+  .secondscreen .thirhtscreen-container .tabs .tabs-div{
+    height: auto;
+    padding-bottom: 160px !important;
+  }
+  .thirhtscreen-container{
+    padding-bottom: 600px !important;
+  }
+  .tabs-div-left{
+    display: block !important;
+    width: 100% !important;
+  }
+  .tabs-div-right{
+    display: block !important;
+    width: 90% !important;
+    margin: 0 !important;
+  }
+  .thirhtscreen-textarea{
+    width: 95% !important;
+  }
+  .source{
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .secondscreen .dontdesapear{
+    bottom: 40px !important;
+    width:100% !important;
+    
+  }
+    .dontdesapear a{
+      width: 90% !important;
+      margin-left:9% !important;
+     height: 60px !important;
+     font-size: 21px !important;
+     line-height: 60px !important;
+    }
+  .forthscreen h3 {
+    font-size: 21px !important;
+    margin-bottom: 100px !important;
+  }
+.forthscreen-container{
+  width: 90% !important;
+}
+.forthscreen-container .forthscreen-input{
+  width: 100% !important;
+}
+.nav{
+  width: 100% !important;
+  /*top:100px !important;*/
+}
+.navshow{
+  top:60px !important;
+}
+.nav ul{
+  margin: 0 auto!important;
+  width: 80% !important; 
+  padding: 5% !important;
+  padding-top: 15% !important;
+  background:#49A0DE;
+  border: 2px solid #49A0DE;
+  border-radius:20px;
+  }
+.popup .popup-window{
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+}
+.popup .popup-window h2{
+  text-align: center;
+  padding: 0;
+}
+.inputs input{
+  margin-left: auto;
+  margin-right: auto;
+  float:none;
+
+}
+.popup-window-send{
+  text-align: center !important;
+  width: 100% !important;
+  /*margin: 0 auto !important;*/
+}
+.popup .popup-window .popup-window-send h4{
+  text-align: center !important;
+  float: none !important;
+  margin-left: 28px !important;
+}
+.popup-window-close{
+    top: 20px;
+    right: 80px;
+}
+.portfoliomain{
+  margin: 0 !important;
+  width: 90% !important;
+}
+.portfoliomain-item-main{
+  width: 100% !important;
+  height: 320px !important;
+}
+.portfoliomain-item-main iframe {
+    height: 280px !important;
+}
+.nav-links .next{
+  display: none;
+}
+.nav-links .prev{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
